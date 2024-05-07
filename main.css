@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Indie Flower", sans-serif;
+    font-weight: bold;
+}
+
+body,
+input,
+textarea {
+    font-family: "Varela Round", sans-serif;
+    background-image: url(./images/cerejeira02.jpg);
+    background-color: rgba(255, 242, 250, 0.85);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(150, 32, 62);
+    color: #fff2fa;
+    font-size: 26px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 22px;
+}
+
+header nav li a{
+    color: #fff2fa;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nezuko-album img {
+    height: 235px;
+    border-radius: 10px;
+}
+
+.nezuko-album li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #96203e;
+    font-size: 20px;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.img-about {
+    height: 600px;
+    margin-right: 32px;
+    border-radius: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 10px;
+    border-color: #d64e70;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #96203e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+form button:hover {
+    background-color: #d64e70;
+}
+
+input:focus, textarea:focus {
+    outline-color: #96203e;
+}
+
+.nezuko-casa img {
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #96203e;
+    color: #fff2fa;
+    padding: 16px 0;
+}
